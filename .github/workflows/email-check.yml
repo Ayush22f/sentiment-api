@@ -1,0 +1,16 @@
+
+name: Email Verification Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 22f3000650@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
+      - name: Verify workflow
+        run: echo "GitHub Actions workflow completed successfully."
